@@ -18,7 +18,7 @@ interface AuthServiceConfig {
 const config: AuthServiceConfig = {
     PORT: process.env.PORT || 3001,
     NODE_ENV: process.env.NODE_ENV || 'development',
-    MONGODB_URI: process.env.MONGODB_URI || 'mongodb+srv://ProjectEducationTeam2:obQKLG7dQORItg8y@projecteducationteam2.dqokymz.mongodb.net/dev1',
+    MONGODB_URI: process.env.MONGODB_URI,
     JWT_SECRET: process.env.JWT_SECRET || 'jwt-secret-key',
     JWT_REFRESH_SECRET: process.env.JWT_REFRESH_SECRET || 'jwt-refresh-secret-key',
     ACCESS_TOKEN_EXPIRES_IN: process.env.ACCESS_TOKEN_EXPIRES_IN || '1h',
